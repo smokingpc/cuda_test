@@ -10,4 +10,4 @@ __global__ void GpuKernel(int *src_x, int *result)
 __device__ int* DevSrcPage = NULL;
 __device__ int* DevResultPage = NULL;
 
-__device__ MyTestFunction(1, )
+//__device__ MyTestFunction(1, )

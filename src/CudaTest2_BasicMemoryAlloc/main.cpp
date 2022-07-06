@@ -18,7 +18,11 @@ int main()
     cuda_err = cudaMalloc(&dev_buf, BUFFER_SIZE);
     //alloc nonpagedpool in host.
     cuda_err = cudaMallocHost(&host_buf, BUFFER_SIZE);
-
+    CUDA_POINTER_ATTRIBUTE_P2P_TOKENS tokens = {0};
+    //CUresult result = cuPointerGetAttribute(&tokens, CU_POINTER_ATTRIBUTE_P2P_TOKENS, ptr);
+    cudaPointerAttributes attr;
+    cuda_err = cudaPointerGetAttributes(&attr, dev_buf);
+    cuda_err = cudaPointerGetAttributes(&attr, host_buf);
     //call my gpu kernel , device threads are launched in gpu kernel function.
 
     cudaFree(dev_buf);
