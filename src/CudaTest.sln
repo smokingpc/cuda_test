@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CudaTest1", "CudaTest1\Cuda
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CudaTest2_BAR1Check", "CudaTest2_BAR1Check\CudaTest2_BAR1Check.vcxproj", "{F9EE0910-03A4-4CC6-B104-7CBF6D47E015}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CudaTest2_BasicMemoryAlloc", "CudaTest2_BasicMemoryAlloc\CudaTest2_BasicMemoryAlloc.vcxproj", "{997EF587-97C4-455A-A4A8-9E616F1FC145}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,10 @@ Global
 		{F9EE0910-03A4-4CC6-B104-7CBF6D47E015}.Debug|x64.Build.0 = Debug|x64
 		{F9EE0910-03A4-4CC6-B104-7CBF6D47E015}.Release|x64.ActiveCfg = Release|x64
 		{F9EE0910-03A4-4CC6-B104-7CBF6D47E015}.Release|x64.Build.0 = Release|x64
+		{997EF587-97C4-455A-A4A8-9E616F1FC145}.Debug|x64.ActiveCfg = Debug|x64
+		{997EF587-97C4-455A-A4A8-9E616F1FC145}.Debug|x64.Build.0 = Debug|x64
+		{997EF587-97C4-455A-A4A8-9E616F1FC145}.Release|x64.ActiveCfg = Release|x64
+		{997EF587-97C4-455A-A4A8-9E616F1FC145}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
